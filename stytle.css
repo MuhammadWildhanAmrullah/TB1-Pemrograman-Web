@@ -1,0 +1,274 @@
+* {box-sizing: border-box;}
+
+body { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 2000px;*/
+  }
+
+  .container{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+  /* border: 5px dashed green ;*/
+    
+  }
+  .topbar{
+    
+  overflow: hidden;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 9999;
+    width: 100%;
+    /*height: 80px;*/
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+  
+  }
+  .topbar img{
+    margin-left: 20px;
+    margin-top: -20px;
+   /* border: 1px solid white;*/
+    width: 80px;
+    float: left;
+  }
+  .topbar a {
+    
+    margin-left: 20px;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 14px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .topbar .header-left a:hover{
+    border-radius: 0;
+    border-bottom:2px solid #FFFFFF;
+    text-shadow: 0 0 10px #fff;
+    font-size: 16px;
+  }
+
+  .search-box{
+    margin-left:30px; ;
+   /*border: 1px solid yellow;*/
+   height: 100%;
+   padding-right: 30px;
+  float: left;
+  }
+
+  
+ 
+  .search-box img{
+    margin-top: 15px;
+    width: 20px;
+    margin-left: 20px;
+   
+    
+  
+  }
+  .search-box input{
+    width: 200px;
+    margin-top: 15px;
+    border:  none;
+    float: left;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgb(185, 185, 185);
+    font-size: 14px;
+
+  }
+  
+  .search-box a{
+    padding-top: 6px;
+    border: 1px solid white;
+    margin-left: 110px;
+    border-radius: 20px;
+    background-color: #195395;
+    width: 150px;
+    height: 40px;
+    
+  }
+
+  .content1{
+   
+    width: 100%;
+    height: 470px;
+    /*border: 5px solid red;*/
+   }
+
+   .content1 img{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+   }
+  .content1 h3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:50px ;
+    opacity: 0.7;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: left;
+    line-height: 43px;
+    margin-top: 500px;
+    /*border: 2px solid blue;*/
+  }
+  
+  .content1 a{ 
+    text-decoration: none;
+    
+  }
+  .content1 h3:hover{
+    font-size: 36px;
+    color: black;
+    background-color: whitesmoke;
+    
+  }
+
+.content2{
+ 
+  position: absolute;
+  top:0;
+  left: 0;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  position: relative;
+    /*border: 3px solid red;*/
+    margin-top: 200px;
+    display: inline-block;
+    background-blend-mode: screen;
+  }
+
+  .content2 img{
+   
+    background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0) 100%);
+    border-radius: 6px;
+    width: 280px;
+    height: 158px;
+    margin: 20px 20px 0;
+    /*border: 5px dashed yellow;*/
+  }
+  .content2 .bola{
+    position:absolute;
+    top: 140px;
+    left: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: BankGothic Lt BT;
+  }
+  .content2 .tenis{
+    position:absolute;
+    top: 330px;
+    left: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: BankGothic Lt BT;
+  }
+  .content2 .badminton{
+    width: 190px;
+    position:absolute;
+    top: 140px;
+    right: 140px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: BankGothic Lt BT;
+  }
+  .content2 .bolabasket{
+    position:absolute;
+    top: 330px;
+    right: 230px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: BankGothic Lt BT;
+  }
+  .content2 .bolavoli{
+    position:absolute;
+    top: 330px;
+    right: 580px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: BankGothic Lt BT;
+  }
+  .content2 .lari{
+    position:absolute;
+    top: 140px;
+    right: 550px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: BankGothic Lt BT;
+  }
+ .content2 a:hover{
+  text-shadow: 0 0 10px #fff;
+ }
+  
+ 
+  .line-1 {
+    border:  8px solid rgba(255, 255, 255, 0.4);
+  }
+  .line-2{
+    margin-top: 50px;
+    Float: center; 
+    width: 90%;
+    border: 1px solid gray;
+  }
+
+ .content3{
+  margin-top: 50px;
+ /* border: 3px dashed violet;*/
+  color: #4A4A4A;
+  font-family: Ubuntu;
+  font-size: 16px;
+  line-height: 30px;
+  width: 750px;
+
+ }
+
+.link {
+  
+  height: 200px;
+  
+}
+.link a{
+  /*border: 2px dashed yellow;*/
+  font-family: Ubuntu;
+  text-decoration: none;
+  padding-top: 10px;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-right: 20px;
+  background-image: linear-gradient(90deg, #46074E 0.36%, rgba(25, 123, 208,0.8) 100%);
+  border-radius: 22.5px;
+  width: 200px;
+  height: 45px; 
+}
+.link a:hover{
+  color: blue;
+  background-image: url(image/bg.jpg);
+   border: 1px inset blue;
+}
+
+    
+  .footer{
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px dashed black;
+    background-image: linear-gradient(90deg, #46074E 0%, rgba(25, 123, 208, 0.8) 100%);
+  }
+   
+ 
+  
